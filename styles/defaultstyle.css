@@ -43,6 +43,7 @@ img { border:none; }
 }
 
 #wrapper {
+	width: inherit;
  box-shadow: 0 0 5px #666;
  -webkit-box-shadow: 0 0 5px #666;
  -moz-box-shadow: 0 0 5px #666;
@@ -51,10 +52,11 @@ img { border:none; }
 }	
 
 #banner {
+	display: block;
 	color:#FFF;
 	padding:15px;
+	padding-top: 80px;
 	background-color: #262626;
-	font
 	margin:0;
 }
 h1 {
@@ -69,13 +71,16 @@ h1 {
 	font-size:14px;
 }
 #nav {
+	position: fixed;
+	width: inherit;
+	margin:auto;	
+	top: 0;
 	font-family:"Verdana";
     background:#76323F;
    overflow:hidden;
    height: 40px;
 }
-#nav ul {
-  
+#nav ul {  
    list-style:none;
    margin:0;
    padding:0;
@@ -92,7 +97,7 @@ h1 {
 #nav ul li a {
    display:block;
    margin:0;
-   padding:0px 15px;
+   padding:0px 20px;
    color:#fff;
    text-decoration:none;
    line-height:40px;
