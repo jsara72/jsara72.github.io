@@ -230,7 +230,7 @@ h2 {
 }
 
 #page {
-	
+
 	-moz-border-radius-bottomleft:10px;
 	-webkit-border-bottom-left-radius:10px;
 	-moz-border-radius-bottomright:10px;
@@ -249,11 +249,11 @@ h2 {
 }
 #contactwrapper {
 	width:90%;
-	float: right;	
+	float: right;
 }
 #contactitem {
 	display: inline;
-	width:33%;
+	width:50%;
 	margin:auto;
 	float:left;
 }
@@ -263,7 +263,7 @@ h2 {
 #contacttext {
 	display: inline;
 	padding-top: 30px;
-	padding-left: 20px;	
+	padding-left: 20px;
 
 }
 .icon_wrapper {
