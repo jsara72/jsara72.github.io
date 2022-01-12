@@ -9,3 +9,9 @@ Disallow: /wedding/index.html
 disallow: /wedding/index.html
 Disallow: /wedding/rsvp.html
 disallow: /wedding/rsvp.html
+Disallow: /wedding_invitation/
+disallow: /wedding_invitation/
+Disallow: /wedding_invitation/index.html
+disallow: /wedding_invitation/index.html
+Disallow: /wedding_invitation/rsvp.html
+disallow: /wedding_invitation/rsvp.html
