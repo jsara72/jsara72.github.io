@@ -9,7 +9,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: table !important;
-    width: 70vmin;
+    width: 60vmin;
+    max-width: 100%;
     direction: rtl;
     float: center;
     box-shadow: 0 3px 8px rgba(0,0,0,.2),0 10px 60px -20px rgba(44,41,37,.2),0 9px 36px -30px rgba(0,0,0,.2);
