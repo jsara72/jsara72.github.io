@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html class="min-height-full">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <title>Sara - Mehrdad</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="Sara Mehrdad">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/3817648?v=4">
+    <meta property="og:description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("scrollbutton").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            //Get the button
+            var mybutton = document.getElementById("scrollbutton");
+            if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20) {
+                mybutton.style.display = "inline-block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 50;
+        }
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 20) {
+                var mybutton = document.getElementById("scrollbutton");
+                $('.scrollbutton').fadeOut();
+                mybutton.style.display = "none";
+            }
+            else {
+                $('.scrollbutton').fadeIn();
+                var mybutton = document.getElementById("scrollbutton");
+                mybutton.style.display = "inline-block";
+            }
+        });
+
+        function adjustWidth() {
+            var parentwidth = $("#left-bar").width();
+            var windowHeight = window.innerHeight;
+            $("#fixed-banner").width(parentwidth);
+
+            var mobile = window.matchMedia("(max-width: 600px)")
+
+            if (mobile.matches) {
+                $("#image").height(300);
+            } else {
+                $("#image").height(windowHeight);
+            }
+        }
+        $(window).resize(
+            function() {
+            adjustWidth();
+        })
+        $(document).ready(function () {
+            adjustWidth();
+        });
+    </script>
+
+
+    <style data-jss="">
+        .jyse-jyse-f901c3ea-3cfc-40d7-8875-2f71da66d384 {
+            top: 0;
+            left: 50%;
+            width: 62%;
+            height: auto;
+            position: relative;
+            transform: translateX(-50%);
+            pointer-events: none;
+        }
+
+        .jyse-jyse-f901c3ea-3cfc-40d7-8875-2f71da66d384::after {
+            width: 0;
+            content: ' ';
+            display: block;
+            padding-top: 50%;
+        }
+        /* top left pic:https://withjoy.dexecure.net/assets/public/styles/prod/ever_after_gold/26924fa541576b0aa74c78c96442928e534e2ce0e8dc0a6496265ff45c74b61d@1x */
+        /* top right pic: 'https://withjoy.dexecure.net/assets/public/styles/prod/ever_after_gold/35ea29a8d3035f3aff740f8fb2182851546aa9ed43b958f136c3a01395fee2cd@1x' */
+
+        .jyse-jyse-f901c3ea-3cfc-40d7-8875-2f71da66d384>*:first-child {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-size: contain;
+            background-image: url('https://withjoy.dexecure.net/assets/public/styles/prod/flourish_gold/d8640ee3856fc8c7e1e34f91143d9b316cc1c6d6d7fcaed2c5ce787bb22e3689@1x');
+            /* background-image: url('https://withjoy.dexecure.net/assets/public/styles/prod/love_script_gold/350571556d1e5b9e57244b297b0def2a73c759baa0c429c46abc498f0be3c2ab@1x'); */
+            /* background-image: url('https://withjoy.dexecure.net/assets/public/styles/prod/foil_mirrored_angles_gold/db213ac63e8d92705671d213ca42fd8ea85ba903cbb8e950b93f986b8248c3ec@2x'); */
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: top;
+        }
+
+        .jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521 {
+            left: 50%;
+            opacity: 38%;
+            width: 122%;
+            bottom: 0;
+            height: auto;
+            position: absolute;
+            transform: translateX(-50%);
+            pointer-events: none;
+        }
+
+        .jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521::after {
+            width: 0;
+            content: ' ';
+            display: block;
+            padding-top: 50%;
+        }
+
+        .jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521>*:first-child {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-size: contain;
+            /* background-image: url('https://withjoy.dexecure.net/assets/public/styles/prod/foil_mirrored_angles_gold/ab187a934855d448add04af56c8c9a2e5232cf77360882043c27e162c1220169@2x'); */
+            background-image: url('assets/night_landscape.png');
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+    </style>
+    <style data-jss="">
+        .jyse-jyse-container-0 {
+            color: rgba(51, 51, 51, 1);
+            background-color: rgba(255, 255, 255, 1);
+        }
+    </style>
+</head>
+
+<body class="bg-white min-height-full">
+
+
+
+    <div class="d-md-flex min-height-full border-md-bottom">
+
+        <!-- start of left bar -->
+        <div id="left-bar"
+            class="flex-self-stretch border-md-right border-gray-light bg-white col-md-5 col-lg-4 col-xl-12 px-4 px-md-6 px-lg-7 py-6 no-padding">
+        
+            <div id="fixed-banner" >
+
+                <img class="couple-image" id="image" src="assets/IMG_4905.jpg">
+                <!-- <img class="couple-image" id="image" src="assets/IMG_4905.jpg"> -->
+                <!-- <img class="couple-image" id="image" src="assets/IMG_9998.jpg"> -->
+                <!-- <img class="couple-image" id="image" src="assets/IMG_9999.jpg"> -->
+                <!-- <img class="couple-image" id="image" src="assets/IMG_3678.jpg"> -->
+                <!-- <img class="couple-image" id="image" src="assets/IMG_1486.JPG"> -->
+                <!-- <img class="couple-image" id="image" src="assets/IMG_1265.JPG"> -->
+                <script type = "text/javascript">
+                    var image = document.getElementById("image");
+                    var currentPos = 0;
+                    var images = ["assets/IMG_1486.JPG", "assets/IMG_1265.JPG", "assets/IMG_4905.jpg", "assets/IMG_9999.jpg", "assets/IMG_9998.jpg", "assets/IMG_3678.jpg"]
+
+                    function volgendefoto() {
+                        if (++currentPos >= images.length)
+                            currentPos = 0;
+                        image.src = images[currentPos];
+                    }
+
+                    setInterval(volgendefoto, 3000);
+                </script>
+
+                <div class="intro-contents">
+                    <h1 id="wedding-names">Sara & Mehrdad</h1>
+                    <h3 id="wedding-message"> مشتاق دیدارتان هستیم</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="scrollbutton-bar">
+            <a href="#schedule-title">
+                <div class="scrollbutton-container" id="scrollbutton">
+                    <div class="scrollbutton-circle"></div>
+                    <div class="scrollbutton-arrow" style="background-image: url('assets/button_scroll.png');"></div>
+                </div>
+            </a>
+        </div>
+        <!-- end of left bar -->
+
+        <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light"
+            style="padding-top: 0 !important;">
+            <div class="mx-auto" style="max-width: 900px;">
+
+                <div class="right-bar-homepage">
+                    <div class="jyse-jyse-f901c3ea-3cfc-40d7-8875-2f71da66d384">
+                        <div></div>
+                    </div>
+                    <div class="jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521">
+                        <div></div>
+                    </div>
+                    <div class="mb-4 welcome-details">
+                        <h1 class="title-binding">سارا و مهرداد</h1>
+                        <h2 class="title-binding">یکشنبه هفتم فروردین </h2>
+                        <div id="timer-div"></div>
+                        <script>
+                            // Set the date we're counting down to
+                            var countDownDate = new Date("Mar 27, 2022 17:00:00").getTime();
+
+                            // Update the count down every 1 second
+                            var x = setInterval(function () {
+
+                                // Get today's date and time
+                                var now = new Date().getTime();
+
+                                // Find the distance between now and the count down date
+                                var distance = countDownDate - now;
+
+                                // Time calculations for days, hours, minutes and seconds
+                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                // Output the result in an element with id="demo"
+                                document.getElementById("timer-div").innerHTML = days + " Days " + hours + " Hrs "
+                                    + minutes + " Mins ";
+
+                                // If the count down is over, write some text 
+                                if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("timer-div").innerHTML = "";
+                                }
+                            }, 1000);
+                        </script>
+
+                    </div>
+                    <a href="rsvp.html"> <div class="rsvp-button">RSVP | اعلام حضور</div></a>
+                </div>
+
+                <h2 class="title-binding" id="schedule-title">Schedule | برنامه‌ی زمانی</h2>
+                <div class="mb-4 right-bar-content">
+                    <div style="position:relative; margin-bottom: 20px;">
+                        <div class="calendar-item-label">SUNDAY, MARCH 27, 2022</div>
+                        <div class="calendar-item-label-persian">یکشنبه، ۷ فروردین ۱۴۰۱</div>
+                        <span class="line"></span>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="time-container">5:30pm- 7:00pm</td>
+                            <td class="event-info">
+                                <div class="event">
+                                    <div><b>مراسم عقد</b></div>
+                                </div>        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time-container">7:00pm- 1:00am</td>
+                            <td class="event-info">
+                                <div class="event">
+                                    <div><b>جشن و پذیرایی</b></div>
+                                    <div>گرمدره، بلوار امیرآباد، خیابان صلواتی، خیابان سعادتیه، انتهای کوچه تیر</div>
+                                </div>        
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- <div class="event-group">
+                        <div class="time-container">5:30pm - 7:00pm</div>
+                        <div class="event">
+                            <div>مراسم عقد</div>
+                        </div>
+                    </div>
+                    <div class="event-group">
+                        <div class="time-container">7:00pm - 1:00am</div>
+                        <div class="event">
+                            <div>جشن و پذیرایی</div>
+                            <div>گرمدره، بلوار امیرآباد، خیابان صلواتی، خیابان سعادتیه، انتهای کوچه تیر</div>
+                        </div>
+                    </div> -->
+
+                    <p class="lh-default text-left f4">
+                        <!-- Button code -->
+                    <p class="lh-default text-left f4">
+                    <div title="Add to Calendar" class="addeventatc add-to-calendar">
+                        Add to Calendar | اضافه کردن به تقویم
+                        <span class="start">03/27/2022 05:00 PM</span>
+                        <span class="end">03/28/2022 01:00 AM</span>
+                        <span class="timezone">America/Los_Angeles</span>
+                        <span class="title">Sara and Mehrdad's Wedding</span>
+                        <span class="description">Sara and Mehrdad's Wedding</span>
+                        <span class="location">Elvin's Mansion, Tehran, Iran</span>
+                    </div>
+                    </p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25907.19219833619!2d51.082038!3d35.740996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf41fc723bfd00119!2sElvin%20Mansion!5e0!3m2!1sen!2sus!4v1641749628080!5m2!1sen!2sus"
+                        width="442" height="216" style="border:0; display:block; max-width:-webkit-fill-available;"
+                        allowfullscreen="" loading="lazy"></iframe>
+                    </p>
+
+                </div>
+
+                <h2 class="title-binding">Q & A | پرسش و پاسخ</h2>
+                <div class="mb-4 right-bar-content">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>تا کی خبر آمدن را بدهیم؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            لطفاً تا ۲۰ بهمن ۱۴۰۰ (۹ فوریه ۲۰۲۲) اومدنتون رو بهمون خبر بدید که برای مراسم بهترین
+                            برنامه‌ریزی رو داشته باشیم.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>مراسم در فضای باز برگزار می‌شه یا فضای بسته؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            مراسم در داخل سالن اصلی برگزار می‌شه ولی امکان نشستن در فضای باز هم وجود داره. به خاطر شرایط
+                            موجود، سالن رو طوری انتخاب کردیم که تعداد مهمان‌ها یک پنجم ظرفیت سالن باشه. ارتفاع سقف بالای
+                            ۱۵ متری و تهویه‌ی مداوم هوا جریان هوای مناسبی رو برای کل مراسم فراهم می‌کنه.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>چی بپوشم؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            کفش مناسب برای رقص به مدت طولانی :)
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>چه ساعتی در محل مراسم باشیم؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            قسمت برنامه‌ی زمانی این دعوت‌نامه رو برای دیدن زمان اولین برنامه چک کنید. ما دوست داریم فرصت
+                            دیدار بیشتری داشته باشیم، خیلی خوشحال می‌شیم به موقع حضور داشته باشید :-)
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>چطوری محل مراسم رو پیدا کنیم؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            عمارت الوین رو در اپلیکیشن‌های نقشه‌ی آنلاین جستجو و مسیریابی کنید یا از موقعیت مکانی در همین صفحه استفاده کنید.
+                        </div>
+                        <div class="faq-answer">
+                            آدرس: گرمدره، بلوار امیرآباد، خیابان صلواتی، خیابان سعادتیه، انتهای کوچه تیر.
+                        </div>
+
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <ul>
+                                <li>می‌تونم ماشین رو به راحتی در محل مراسم پارک کنم؟</li>
+                            </ul>
+                        </div>
+                        <div class="faq-answer">
+                            بله، برای همه‌ی مهمان‌ها، فضای پارکینگ رایگان مسقف داخل عمارت (طبقه‌ی زیر همکف) هست.
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

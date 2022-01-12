@@ -1,0 +1,65 @@
+body{
+    font-family: "Inter UI",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,sans-serif;
+}
+
+.middle-column-content {
+    padding-top: 10vmin;
+    padding-bottom: 0;
+    margin-top: 10vmin;
+    margin-left: auto;
+    margin-right: auto;
+    display: table !important;
+    width: 70vmin;
+    direction: rtl;
+    float: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,.2),0 10px 60px -20px rgba(44,41,37,.2),0 9px 36px -30px rgba(0,0,0,.2);
+    background-color: rgb(250, 248, 245);
+}
+
+.header {
+    text-align: center;
+}
+
+#names-header {
+    color: rgb(146, 116, 68);
+    font-family: 'Great Vibes';
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#date-header {
+    color: rgb(146, 116, 68);
+    font-family: "Noto Nastaliq Urdu";
+    font-size: 1.5em;
+    margin-bottom: 5vmin;
+}
+
+#qualtrics-iframe-container {
+    padding: 4vmin 4vmin 4vmin 4vmin;
+}
+
+.description {
+    /* padding-top: 10vmin; */
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 200;
+}
+
+#header-border {
+    width: 80%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container{
+    width: 100%;
+}
+
+.footer-image{
+    width: inherit;
+    opacity: 38%;
+}
