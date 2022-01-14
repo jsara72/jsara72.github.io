@@ -89,12 +89,20 @@
                 $("#image").height(windowHeight);
             }
         }
+        function adjustRightBarHeight() {
+            var mobile = window.matchMedia("(max-width: 600px)")
+            if (mobile.matches) {
+                var imageElement = document.getElementById("image");
+                $("#right-bar-div").height(window.innerHeight-imageElement.offsetHeight);
+            }
+        }
         $(window).resize(
             function() {
             adjustWidth();
         })
         $(document).ready(function () {
             adjustWidth();
+            adjustRightBarHeight();
         });
     </script>
 
@@ -225,7 +233,7 @@
             style="padding-top: 0 !important;">
             <div class="mx-auto" style="max-width: 900px;">
 
-                <div class="right-bar-homepage">
+                <div class="right-bar-homepage" id="right-bar-div">
                     <div class="jyse-jyse-f901c3ea-3cfc-40d7-8875-2f71da66d384">
                         <div></div>
                     </div>
@@ -269,6 +277,7 @@
 
                     </div>
                     <a href="rsvp.html"> <div class="rsvp-button">RSVP | اعلام حضور</div></a>
+                    <a href="#schedule-title" class="link-to-schedule-button"> <div class="rsvp-button link-to-schedule-button">Schedule | برنامه‌ی زمانی</div></a>
                 </div>
 
                 <h2 class="title-binding" id="schedule-title">Schedule | برنامه‌ی زمانی</h2>

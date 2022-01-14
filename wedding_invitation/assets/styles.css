@@ -20,7 +20,18 @@ body {
         height: 300px;
     }
     .scrollbutton-bar{
-        display: none;
+        text-align: left !important;
+        margin-left: 20px;
+        display: none !important;
+    }
+    .scrollbutton-container{
+        margin-bottom: 0 !important;
+    }
+    .right-bar-homepage{
+        min-height: 0 !important;
+    }
+    .jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521 {
+        width: 126% !important;
     }
     .calendar-item-label {
         display: none !important;
@@ -168,6 +179,9 @@ a:hover, a:active, a:focus
     top: -30px;
 }
 
+.link-to-schedule-button{
+    margin-top: 10px;
+}
 .right-bar-content{
     padding: 10px 60px 60px 60px;
 }
