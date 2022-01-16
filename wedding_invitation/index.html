@@ -40,6 +40,32 @@
                     });
                 } // End if
             });
+
+
+            function SmoothVerticalScrolling(e, time, where) {
+                var eTop = e.getBoundingClientRect().top;
+                var eAmt = eTop / 100;
+                var curTime = 0;
+                while (curTime <= time) {
+                // while (document.body.scrollTop < 878){
+                    window.setTimeout(SVS_B, curTime, eAmt, where);
+                    curTime += time / 100;
+                }
+            }
+
+            function SVS_B(eAmt, where) {
+                if(where == "center" || where == "")
+                    window.scrollBy(0, eAmt);
+                // if (where == "top")
+                //     window.scrollBy(0, eAmt);
+            }
+            /*Scroll transition to anchor*/
+            $(".link-to-schedule-button").on('click',function(e) {
+                var targetElement = document.getElementById("schedule-title");
+                SmoothVerticalScrolling(targetElement, 275, "center");
+                return false;
+            });
+
         });
     </script>
 
@@ -220,7 +246,7 @@
         </div>
 
         <div class="scrollbutton-bar">
-            <a href="#schedule-title">
+            <a href="#schedule-title" class="link-to-schedule-button">
                 <div class="scrollbutton-container" id="scrollbutton">
                     <div class="scrollbutton-circle"></div>
                     <div class="scrollbutton-arrow" style="background-image: url('assets/button_scroll.png');"></div>
