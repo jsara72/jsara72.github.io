@@ -30,6 +30,9 @@ body {
     .right-bar-homepage{
         min-height: 0 !important;
     }
+    .right-bar-content{
+        padding: 10px 35px 60px 35px;
+    }
     .jyse-jyse-ce990fd4-d246-4ba6-9add-a0700228f521 {
         width: 126% !important;
     }
